@@ -1,6 +1,6 @@
 # 3D Tiles in Unity
 
-Clone [Unity3DTiles](https://github.com/NASA-AMMOS/Unity3DTiles).
+Fork of [Unity3DTiles](https://github.com/NASA-AMMOS/Unity3DTiles).
 
 The project uses __Unity 2020.1.17f1__.
 
