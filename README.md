@@ -9,7 +9,7 @@ The project uses __Unity 2020.1.17f1__.
 - Open the project in Unity
 - In `Assets/Examples/Scenes` select the scene `MainWeb`
 - In the scene, select the `Tileset`
-- In `Tileset Behaviour (Script)`, change the `Url` in `Tileset Options` (the URL should be the URL of the `tileset.json`)
+- In `Tileset Behaviour (Script)`, change the `Url` in `Tileset Options` (the URL should be the URL of the `tileset.json`). (Gratte-Ciel dataset https://partage.liris.cnrs.fr/index.php/s/jBDqc7YQJTRisjo)
   - If you want to use a local tileset, copy the tileset in the Unity project in `Assets/StreamingAssets` and use `data://my_tileset/tileset.json` as URL
   - To add another tileset, create an empty object in the scene and add the `Tileset Behavior (Script)`. Then set the URL as explained above
 - Save and play
