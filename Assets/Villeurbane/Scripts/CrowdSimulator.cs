@@ -39,13 +39,15 @@ public class CrowdSimulator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InitSimulation(_simulations[0]);
+        foreach(var sim in _simulations)
+            InitSimulation(sim);
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateSimulation(_simulations[0]);
+        foreach(var sim in _simulations)
+            UpdateSimulation(sim);
     }
 
     void InitSimulation(Simulation sim)
@@ -95,8 +97,6 @@ public class CrowdSimulator : MonoBehaviour
         List<People> toDestroy = new();
         foreach (var p in sim.peopleGo)
         {
-            Debug.Log(sim.path.Count);
-            
             if (!p.IsDestinationHit()) continue;
             if (p.IndexDestination + 1 >= sim.path.Count)
             {
