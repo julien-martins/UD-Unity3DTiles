@@ -6,6 +6,7 @@ TagManager:
   tags:
   - People
   - Obstacle
+  - Help
   layers:
   - Default
   - TransparentFX
